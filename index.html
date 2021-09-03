@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Arsenal | When Amazon meets Arteta</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Open account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          When
+          <!-- Green highlight effect -->
+          <span class="highlight">Amazon</span>
+          meets <br />
+          <span class="highlight">Arsenal</span>
+        </h1>
+        <h4>A simpler depressing experience for Arsenal fans.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern comedy and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% financial backing</h5>
+          <p>
+            The manager has received tremendous financial backing.Arsenal are the team that has invested the most money in the league on players in all positions.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Release players for free</h5>
+          <p>
+            Arsenal release a number of mediocre players for free every season even though they have been paid a lot of money for them.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money wasted</h5>
+          <p>
+            Arsenal fans pay the highest ticket price in the world at every game by a huge margin every year without any justification.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>No goals
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>No points
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>no wins
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Lose to anyone, instantly! No fight, no war.
+          </h5>
+          <p>
+            Arsenal are unable to score any goals in the league despite having an attack costing more than £200 million,
+            at Arsenal no striker provides goals or even try's to kick towards the opponent's goalkeeper.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy a Football Manager copy if you want your dreams as Arsenal fan become true.
+          </h5>
+          <p>
+            Arsenal have not earned points all season and have not kept a clean sheet even once, even though
+            they have invested the most money in acquiring players this season - and especially in their defense.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No longer want to live? No problem! Arsenal is here.
+          </h5>
+          <p>
+            Arsenal are unable to win any game, neither at home, nor away nor against the newcomer and especially not
+            against the rivals from London, which is something that has never happened before. Without passion, without war.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Thousands of football fans now understand that the drama genre combined with comedy has been redesigned.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">The best comedy series ever!</h5>
+            <blockquote class="testimonial__text">
+              I have been a fan of movies and series since a young age, I have a huge library of comedies but never
+              in my life have I laughed so much at a series. Amazon deserves all the awards for this masterpiece
+              series, and Arteta deserves a Nobel for his main role.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpeg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Harel</h6>
+              <p class="testimonial__location">Tottenham fan, Israel</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step before committing suicide or becoming a serial killer.
+            </h5>
+            <blockquote class="testimonial__text">
+              As an Arsenal fan I'm used to disappointments, used to being humiliated by rivals, and even used to being
+              crushed by Troll Football and the rest of the Twitter pages that laughing at us every week. But a
+              shocking season like this I have never experienced. This is the pinnacle of highs, this is the hardest
+              drama series I have seen, even in the Hachiko movie I did not cry like that.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpeg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Daniel</h6>
+              <p class="testimonial__location">Arsenal fan, Israel</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school players!
+            </h5>
+            <blockquote class="testimonial__text">
+              I thank Arsenal for their ambition for mediocrity and not for success, thanks to this poor ambition
+              Arsenal took our bad players - Willian, Cech and Luiz - something that strengthened us and thanks to
+              that we won the Champions League while Arsenal are nominated for relegation. This series is a delight
+              to the eyes, well done to Amazon and Arteta.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpeg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Adi</h6>
+              <p class="testimonial__location">Chelsea fan, Israel</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Joy mixed with sadness.
+            </h5>
+            <blockquote class="testimonial__text">
+              As a Manchester United fan, I grew up on huge games against Arsenal. Action, wars, blood, stress, and
+              many more exciting experiences. Ever since Arsene Wenger left Arsenal, this club has not been exciting,
+              not fighting, not trying, nothing. disappointing. Every season I see it again and get frustrated,
+              missing the days when Arsenal were my rival and not Norwich's.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-4.jpeg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Arkadi</h6>
+              <p class="testimonial__location">Man United fan, Israel</p>
+            </address>
+          </div>
+        </div>
+
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best way to laugh was this season, but wait for next season, Arsenal never disappoint us!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today and laugh at Arsenal fans!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/"
+          >Daniel Ashorov</a>. Why the hell am I an Arsenal fan?
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
